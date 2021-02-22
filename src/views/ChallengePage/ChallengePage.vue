@@ -4,7 +4,7 @@
       <div class="bx--col-lg-16">
         <cv-breadcrumb noTrailingSlash>
           <cv-breadcrumb-item>
-            <cv-link to="/challenge-page">Challenge 1</cv-link>
+            <cv-link to="/challenge-page">First App on IBM Cloud</cv-link>
           </cv-breadcrumb-item>
         </cv-breadcrumb>
         <h1 class="challenge-page__heading">Your First App on IBM Cloud</h1>
@@ -34,15 +34,10 @@
                   <p class="challenge-page_didit">
                     Congrats on your first app here!
                     <br />
-                    Enter the following secret code back <u>in the challenge page</u> to mark it complete:
+                    <br/>
+                    Feel free to continue building off of this sample app!
                   </p>
                   <br />
-                  <div class="bx--col-sm-16 bx--col-md-4 bx--col-lg-4 bx--offset-sm-0 bx--offset-md-2 bx--offset-lg-6">
-                    <cv-tile>
-                      <div class="secret_word">potato</div>
-                    </cv-tile>
-                  </div>
-
                   <br />
                   <br />
                   <br />
@@ -54,7 +49,7 @@
                     <cv-button 
                       :icon="Idea" 
                       @click="activate_t2">
-                      Want more challenges?
+                      Want more tutorials and code patterns?
                     </cv-button>
                   </p>
                 </div>
@@ -62,21 +57,24 @@
             </div>
           </cv-tab>
           <cv-tab
-            label="More Challenges?"
+            label="More Code Sampes"
             :selected="t2_selected">
             <div class="bx--grid bx--grid--no-gutter bx--grid--full-width">
               <div class="bx--row challenge-page__tab-content">
                 <div class="bx--col-sm-16 bx--col-md-6 bx--col-lg-6 bx--offset-sm-0 bx--offset-md-1 bx--offset-lg-5">
-                  <h1 class>Make sure you've entered the secret code</h1>
+                  <h1 class>Check out IBM Developer for more awesome content</h1>
                   <br />
                   <p class>
-                    Don't forget to enter the secret code from the previous page into your challenges page.
+                    IBM Developer: <a href=https://developer.ibm.com>https://developer.ibm.com/</a>
                     <br />
                     <br />
-                    If you've done that, you're done. You can find even more challenges on the challenges page.
+                    IBM Developer Tutorials: <a href=https://developer.ibm.com/tutorials>https://developer.ibm.com/tutorials</a>
                     <br />
                     <br />
-                    You're still reading this? Ok fine! If you've done all the challenges in the challenges page and are looking for something even
+                    IBM Developer Code Patterns: <a href=https://developer.ibm.com/patterns/>https://developer.ibm.com/patterns</a>
+                    <br />
+                    <br />
+                    You're still reading this? Ok fine! If you are looking for something even
                     more you <u>could</u> click on the button below. But there's nothing there... at least, nothing useful!
                   </p>
                   <br />

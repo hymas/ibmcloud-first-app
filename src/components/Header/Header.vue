@@ -3,9 +3,9 @@
     <cv-skip-to-content href="#main-content"
       >Skip to content</cv-skip-to-content
     >
-    <cv-header-name to="/" prefix="DDC">Challenge 1</cv-header-name>
+    <cv-header-name to="/">Your App</cv-header-name>
     <cv-header-nav>
-      <cv-header-menu-item to="/">Challenge</cv-header-menu-item>
+      <cv-header-menu-item to="/">Success Page</cv-header-menu-item>
       <cv-header-menu-item to="/empty-page">An Empty Page</cv-header-menu-item>
     </cv-header-nav>
     <template slot="header-global">
