@@ -21,7 +21,7 @@
               <div class="bx--row challenge-page__tab-content">
                 <div class="bx--col-md-16 bx--col-lg-16">
                   <h1 class="challenge-page_didit">
-                    <ThumbsUp32 aria-label="ThumbsUp Image" />Yay... You did it!
+                    <ThumbsUp32 aria-label="ThumbsUp Image" />Yay Bill... You did it!
                     <div 
                     :style="{
                       transform: 'scale(-1,1)', 
